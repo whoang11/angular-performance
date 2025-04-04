@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# Node - Ignore .angular folders at all levels
+**/.angular/**
+
 # Node - Ignore node_modules folders at all levels
 **/node_modules/
 npm-debug.log
