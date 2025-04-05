@@ -1,11 +1,11 @@
-import { Injectable } from '@angular/core';
+// import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class DogsService {
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class DogsService {
 
-  getDogs() {
-    return 'big ol dogs';
-  }
-}
+//   getDogs() {
+//     return 'big ol dogs';
+//   }
+// }

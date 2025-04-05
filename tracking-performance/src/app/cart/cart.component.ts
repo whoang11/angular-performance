@@ -9,7 +9,8 @@ import { AddToCartButtonComponent } from '../shared-ui/add-to-cart-button/add-to
 import { JlpBorderButtonDirective } from '../shared-ui/jlp-border-button.directive';
 import { TwoPanelLayoutComponent } from '../shared-ui/two-panel-layout/two-panel-layout.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { CartService, ContactService, UnusedService  } from '../services';
+import { CartService, ContactService  } from '../services';
+// import { CartService, ContactService, UnusedService  } from '../services';
 
 @Component({
   selector: 'app-cart',
@@ -31,7 +32,7 @@ export class CartComponent {
   readonly cartService = inject(CartService);
   readonly router = inject(Router);
   readonly contactService = inject(ContactService);
-  readonly unusedService = inject(UnusedService);
+  //readonly unusedService = inject(UnusedService);
 
   readonly ROUTE_TOKENS = ROUTE_TOKENS;
 
